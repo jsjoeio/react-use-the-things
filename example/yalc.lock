@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@jsjoeio/react-use-the-things": {
+      "signature": "036176fef07ee02a4ef7b92697a08f0b",
+      "file": true,
+      "replaced": "file:.."
+    }
+  }
+}
