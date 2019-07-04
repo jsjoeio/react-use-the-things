@@ -1,9 +1,10 @@
 import React from 'react'
 
-import { TwilioLogo, useCounter } from '@jsjoeio/react-use-the-things'
+import { TwilioLogo, useCounter, useDocumentTitle } from '@jsjoeio/react-use-the-things'
 
 const App = () => {
   const [count, setCount] = useCounter(4)
+  useDocumentTitle(count)
   return (
     <div>
       <TwilioLogo
@@ -13,7 +14,7 @@ const App = () => {
     />
     <p>Currently, the count is: {count}</p>
     <button onClick={() => setCount(count + 1)}>Add 1</button>
-    <button onClick={() => setCount(count - 1)}>Substract 1</button>
+    <button onClick={() => setCount(count - 1)}>Subtract 1</button>
     </div>
   )
 }
