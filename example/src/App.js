@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from '@jsjoeio/react-use-the-things'
+import TwilioLogo from '@jsjoeio/react-use-the-things'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <TwilioLogo
+          height='240px'
+          width='520px'
+          customStyles={{ border: '1px solid black' }}
+      />
       </div>
     )
   }
