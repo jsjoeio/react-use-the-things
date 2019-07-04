@@ -1,7 +1,11 @@
-import ExampleComponent from './'
+import React from 'react'
+import { render } from '@testing-library/react'
+import TwilioLogo from './TwilioLogo'
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+describe('TwilioLogo', () => {
+  it('renders correctly', () => {
+    const { getByAltText } = render(<TwilioLogo />)
+    const component = getByAltText('Twilio logo in red.')
+    expect(component).toBeTruthy()
   })
 })
