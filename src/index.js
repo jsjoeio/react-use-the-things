@@ -1,3 +1,4 @@
 import TwilioLogo from './TwilioLogo'
+import useCounter from './useCounter'
 
-export default TwilioLogo
+export { useCounter, TwilioLogo }
