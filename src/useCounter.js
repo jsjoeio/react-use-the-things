@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function useCounter (initialCount) {
   return useState(initialCount)
