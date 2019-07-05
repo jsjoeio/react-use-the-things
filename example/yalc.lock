@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "@jsjoeio/react-use-the-things": {
-      "signature": "036176fef07ee02a4ef7b92697a08f0b",
+      "signature": "8c17311b2a5345542c56b172ed6e9ef5",
       "file": true,
       "replaced": "file:.."
     }
