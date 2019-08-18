@@ -1,7 +1,5 @@
 import { useState } from 'react'
 
-function useCounter (initialCount) {
+export function useCounter(initialCount) {
   return useState(initialCount)
 }
-
-export default useCounter
